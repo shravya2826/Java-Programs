@@ -1,0 +1,16 @@
+public class MultiplicationExample {
+    public static void main(String[] args) {
+        int a = 9, b = 7;
+        int product = a * b;
+        System.out.println("Product: " + product);
+    }
+}
+
+public class DivisionExample {
+    public static void main(String[] args) {
+        int a = 64, b = 8;
+        int quotient = a / b;
+        System.out.println("Quotient: " + quotient);
+    }
+}
+
