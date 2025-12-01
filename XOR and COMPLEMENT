@@ -1,0 +1,16 @@
+public class XorExample {
+    public static void main(String[] args) {
+        int a = 12;  //1010
+        int b = 10;  // 1010
+        int result = a ^ b; // 0110 (binary) = 6
+        System.out.println("a ^ b = " + result);
+    }
+}
+
+public class ComplementExample {
+    public static void main(String[] args) {
+        int a = 12;   // 0000 1100 (binary)
+        int result = ~a;  
+        System.out.println("~a = " + result);  // -13 (2’s complement form)
+    }
+}
