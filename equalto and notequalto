@@ -1,0 +1,12 @@
+public class EqualToExample {
+    public static void main(String[] args) {
+        int x = 11, y = 11;
+        System.out.println("x == y: " + (x == y));  // true
+    }
+}
+public class NotEqualExample {
+    public static void main(String[] args) {
+        int x = 11, y = 12;
+        System.out.println("x != y: " + (x != y));  // true
+    }
+}
