@@ -1,0 +1,12 @@
+public class GreaterThanExample {
+    public static void main(String[] args) {
+        int x = 20, y = 15;
+        System.out.println("x > y: " + (x > y));  // true
+    }
+}
+public class LessThanExample {
+    public static void main(String[] args) {
+        int x = 7, y = 22;
+        System.out.println("x < y: " + (x < y));  // true
+    }
+}
