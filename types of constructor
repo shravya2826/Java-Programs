@@ -1,0 +1,32 @@
+class Car {
+    String model;
+    int year;
+
+    Car() {   // Default constructor
+        model = "Unknown";
+        year = 2020;
+    }
+}
+
+
+class Car {
+    String model;
+    int year;
+
+    Car(Car c) {   // Copy constructor
+        model = c.model;
+        year = c.year;
+    }
+}
+
+
+
+class Car {
+    String model;
+    int year;
+
+    Car(String m, int y) {   // Parameterized constructor
+        model = m;
+        year = y;
+    }
+}
